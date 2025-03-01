@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Console.WriteLine("The ans of the equation is= " + (4 + 5 * 2));
+            Console.WriteLine("The ans of the equation is= " + (4 + 52));
 
         }
     }
