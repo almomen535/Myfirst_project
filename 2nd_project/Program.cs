@@ -18,6 +18,11 @@ namespace _2nd_project
             Console.WriteLine($"Number is = {number1}");
             Console.WriteLine(number1 > number2);
 
+            number1 += 22;
+            Console.WriteLine($"Number is = {number1}");
+            Console.WriteLine(number1 > number2);
+
+
 
 
 
