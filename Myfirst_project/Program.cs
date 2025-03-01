@@ -15,8 +15,8 @@ class Test
 
 
         Console.WriteLine("Hello World");
-        Console.WriteLine(1234);
-        Console.WriteLine("hey it's Momen here");
+
+        Console.WriteLine($"{x} + {y} = { sum}" );
 
         Console.WriteLine(name);
         Console.WriteLine(id);
@@ -50,5 +50,7 @@ class Test
         Console.WriteLine("The ans of the equation is= " +(4 + 5 * 2));
         Console.WriteLine("The ans of the equation is= " + (4 + 5));
         Console.WriteLine("The ans of the equation is= " + (4 + 5));
+
+
     }
 }
