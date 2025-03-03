@@ -147,16 +147,17 @@ namespace _2nd_project
                     //shorthand process of switch :
 
                     int digit1=2;
-                    string message = digit1 switch
-                    {
-                        1 => "one",
-                        2 => "two",
-                        3 => "three",
-                        4 => "four",
-                        5 => "five",
-                        _ => "Ünkown"
+            string message = digit1 switch
+            {
+                1 => "one",
+                2 => "two",
+                3 => "three",
+                4 => "four",
+                5 => "five",
+                6 => "six",
+                _ => "Ünkown"
 
-                    };
+            };
                     Console.WriteLine($"The number is= {message}");
 
 
