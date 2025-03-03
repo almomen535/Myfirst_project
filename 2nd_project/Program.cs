@@ -179,11 +179,40 @@ namespace _2nd_project
             }
 
 
+            // while loop and do.. while loop: 
+            Console.WriteLine("This is while loop example: ");
+            int i = 1;
+            while(i<=10)
+            {
+                Console.WriteLine($"{i}");
+                i++;
+            }
+
+
+            //do..while loop:
+            Console.WriteLine("This is  do..while loop example: ");
+            int j = 1;
+            do
+            {
+                Console.WriteLine($"{j}");
+                j++;
+            }
+            while (j < 10);
 
 
 
+            // Nested loop:
 
+            int p, q;
+            for (p = 1; p <= 10; p++)
+            {
+                Console.WriteLine($"{p} Iteration: ");
+                for (q = 1; q < 5; q++)
+                {
+                    Console.WriteLine("Momen");
 
+                }
+            }
 
 
 
