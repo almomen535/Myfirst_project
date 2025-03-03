@@ -3,14 +3,14 @@ namespace _2nd_project
 {
     internal class Program
     {
-        
+
         static void Main(string[] args)
         {
 
-            double x,y,result;
+            double x, y, result;
             double radius, area;
             double pi = 3.1416;
-            int number1 = 20,number2=10;
+            int number1 = 20, number2 = 10;
 
 
             // Operators ( assignment, relational, logical operators)
@@ -19,7 +19,7 @@ namespace _2nd_project
             Console.WriteLine("This is assignment operators example: ");
             number1 += 5;
             Console.WriteLine($"Number is = {number1}");
-           
+
             number1 += 22;
             Console.WriteLine($"Number is = {number1}");
 
@@ -70,12 +70,12 @@ namespace _2nd_project
             Console.Write("Enter the value: ");
             number3 = Convert.ToDouble(Console.ReadLine());
 
-            if(number3> 0)
+            if (number3 > 0)
             {
                 Console.WriteLine("The number is Positive");
             }
 
-            else if(number3<0)
+            else if (number3 < 0)
             {
                 Console.WriteLine("The number is Negative");
             }
@@ -85,12 +85,94 @@ namespace _2nd_project
             {
                 Console.WriteLine("The number is Zero");
             }
-               
 
 
-            
-        
+
+            // Even-Odd number checker
+
+            /*
+            int number4;
+            Console.Write("Enter the number4: ");
+            number4 = Convert.ToInt32(Console.ReadLine());
+
+            if (number4%2==0)
+            {
+                Console.WriteLine("Even");
+            }
+
+            else
+            {
+                Console.WriteLine("Odd");
+
+            }
+            */
+
+
+
+            // Switch, case, default, break:
+
+   /*         int digit;
+            Console.Write("Enter a digit: ");
+            digit = Convert.ToInt32(Console.ReadLine());
+
+            switch(digit)
+            {
+                case 0:
+                    Console.WriteLine("zero");
+                    break;
+
+                case 1:
+                    Console.WriteLine("one");
+                    break;
+
+                case 2:
+                    Console.WriteLine("two");
+                    break;
+                case 3:
+                    Console.WriteLine("three");
+                    break;
+
+                case 4:
+                    Console.WriteLine("four");
+                    break;
+                case 5:
+                    Console.WriteLine("five");
+                    break;
+                default:
+                    Console.WriteLine("Not valid digit");
+                    break;
+   */
+
+
+                    //shorthand process of switch :
+
+                    int digit1=2;
+                    string message = digit1 switch
+                    {
+                        1 => "one",
+                        2 => "two",
+                        3 => "three",
+                        4 => "four",
+                        5 => "five",
+                        _ => "Ünkown"
+
+                    };
+                    Console.WriteLine($"The number is= {message}");
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
-}
+
