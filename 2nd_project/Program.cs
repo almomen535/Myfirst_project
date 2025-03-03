@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Transactions;
 namespace _2nd_project
 {
     internal class Program
@@ -161,6 +162,20 @@ namespace _2nd_project
                     Console.WriteLine($"The number is= {message}");
 
 
+
+            // For loop :
+
+            Console.Write("Enter your first number= ");
+            int startingTerm = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your last number= ");
+            int lastNumber = Convert.ToInt32(Console.ReadLine());
+            for (startingTerm = 1; startingTerm <= lastNumber; startingTerm++)
+            {
+               // Console.WriteLine($"{i}");
+                if(startingTerm%2==0)
+                {
+                    Console.WriteLine($"{startingTerm}");
+                }
             }
 
 
@@ -172,6 +187,8 @@ namespace _2nd_project
 
 
 
+
+            }
 
 
         }
